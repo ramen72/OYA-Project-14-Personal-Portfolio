@@ -6,8 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'navlink' : "#838383",
+        'secondary' : "#8671FC"
+      },
       maxWidth: {
         'containerWith': '1170px',
+      },
+      padding: {
+        '50': '50px',
       }
     },
   },
