@@ -13,7 +13,7 @@ const NavSection = () => {
                         {
                             navData.map((item,index)=>(
                                 <li key={index}>
-                                    <a href={item.url} className='font-montserrat text-navlink text-base font-semibold leading-none capitalize hover:text-secondary transition-all duration-300'>{item.lavel}</a>
+                                    <a href={item.url} className='font-montserrat text-gray text-base font-semibold leading-none capitalize hover:text-secondary transition-all duration-300'>{item.lavel}</a>
                                 </li>
                             ))
                         }

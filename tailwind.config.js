@@ -7,11 +7,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'montserrat': `"Montserrat", sans-serif;`
+        'montserrat': `"Montserrat", sans-serif;`,
+        'raleway': `"Raleway", sans-serif;`
       },
       colors:{
-        'navlink' : "#838383",
-        'secondary' : "#8671FC"
+        'gray' : "#838383",
+        'secondary' : "#8671FC",
+        'radish' : "#F05D7B",
+        'lightBlack' : "#222222"
       },
       maxWidth: {
         'containerWith': '1170px',
