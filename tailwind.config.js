@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'montserrat': `"Montserrat", sans-serif;`
+      },
       colors:{
         'navlink' : "#838383",
         'secondary' : "#8671FC"
