@@ -1,4 +1,7 @@
 import React from 'react';
+import { IoIosArrowBack } from "react-icons/io";
+import TestimonialCard from '../../../components/helper/TestimonialCard';
+import testimonialImage from '../../../assets/svg/testimonialImage.svg'
 
 const Testimonials = () => {
     return (
@@ -11,8 +14,11 @@ const Testimonials = () => {
                     <p className="max-w-[274px] font-raleway font-normal text-base text-gray">
                         Being the savage's bowsman, that is, the person who pulled the bow-oar in his boat (the second on.
                     </p>
+                    <IoIosArrowBack className='inline-block w-[58px] h-[70px] p-4 transition-all duration-200 hover:bg-secondary hover:text-white hover:cursor-pointer'/>
                 </div>
-                <div className="w-2/3"></div>
+                <div className="w-2/3">
+                    <TestimonialCard src={testimonialImage}/>
+                </div>
             </div>
         </div>
         </>
