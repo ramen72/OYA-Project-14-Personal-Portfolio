@@ -14,7 +14,9 @@ export default {
         'gray' : "#838383",
         'secondary' : "#8671FC",
         'radish' : "#F05D7B",
-        'lightBlack' : "#222222"
+        'lightBlack' : "#222222",
+        'stoke' : "#4747471a",
+        'cardBG' : "#CECECE",
       },
       maxWidth: {
         'containerWith': '1170px',

@@ -1,6 +1,5 @@
 import React from 'react';
 import bannerImage from '../../../assets/svg/bannerImage.svg'
-// import { IoIosArrowForward } from "react-icons/io";
 import ArrowButton from '../../../components/helper/ArrowButton';
 
 const Banner = () => {
@@ -14,7 +13,7 @@ const Banner = () => {
                         <p className='text-base text-gray max-w-[460px] mb-[50px]'>
                             My ultimate motto is to fulfill the demand of the buyers by making them satisfied with proper file delivery in time and without delay.
                         </p>
-                        <a href="#" className='bg-secondary text-white uppercase text-base rounded-[30px] px-10 py-5 font-raleway font-bold'>hire me</a>
+                        <a href="#" className='bg-secondary text-white uppercase text-base rounded-[30px] px-10 py-5 font-raleway font-bold me-9'>hire me</a>
                         <ArrowButton contentText="DOWNLOAD RESUME"/>
                     </div>
                     <img src={bannerImage} alt="BannerImage" />
