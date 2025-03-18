@@ -6,6 +6,7 @@ import Skills from './sections/Skills';
 import Portfolio from './sections/Portfolio';
 import Testimonials from './sections/Testimonials';
 import Client from './sections/Client';
+import Footer from './sections/Footer';
 
 const HomeIndex = () => {
     return (
@@ -17,6 +18,7 @@ const HomeIndex = () => {
             <Portfolio/>
             <Testimonials/>
             <Client/>
+            <Footer/>
         </>
     );
 };
