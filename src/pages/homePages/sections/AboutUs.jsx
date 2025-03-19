@@ -3,8 +3,10 @@ import ArrowButton from '../../../components/helper/ArrowButton';
 
 const AboutUs = () => {
     return (
-        <div className='bg-radish px-[185px] py-[150px]'>
-            <div className="max-w-containerWith mx-auto">
+        <div className='bg-radish px-[185px] py-[150px] relative overflow-hidden'>
+            <div className='w-[640px] h-[640px] bg-gradient-to-r from-[#F46C88] to-[rgba(251,165,189,0.2)] rounded-full absolute -top-[123px] -left-12'></div>
+            <div className='w-80 h-80 bg-gradient-to-r from-[#F46C88] to-[rgba(251,165,189,0.2)] rounded-full absolute -bottom-12 -right-12'></div>
+            <div className="max-w-containerWith mx-auto relative z-10">
                 <div className="flex justify-between items-center text-white">
                     <div>
                         <h6>About Me</h6>
