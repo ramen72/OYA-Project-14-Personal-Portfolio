@@ -14,7 +14,7 @@ const AboutUs = () => {
                         <p className='max-w-[500px] font-raleway font-normal text-base text-white leading-6 mb-16'>
                             Being the savage's bowsman, that is, the person who pulled the bow-oar in his boat (the second one from forward), it was my cheerful duty to attend upon him while taking that hard-scrabble scramble upon the dead whale's back. You have seen Italian organ-boys 
                         </p>
-                        <ArrowButton contentText={"Download Resume"} color={true} huberColor={true}/>
+                        <ArrowButton contentText={"Download Resume"} color={true} huberColor={false}/>
                     </div>
                     <div>
                         <h2 className='max-w-[360px] font-raleway font-bold text-3xl text-white mt-4 mb-7'>Any type of question & Discussion.</h2>

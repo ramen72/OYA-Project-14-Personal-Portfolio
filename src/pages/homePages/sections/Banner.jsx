@@ -14,7 +14,7 @@ const Banner = () => {
                             My ultimate motto is to fulfill the demand of the buyers by making them satisfied with proper file delivery in time and without delay.
                         </p>
                         <a href="#" className='bg-secondary text-white uppercase text-base rounded-[30px] px-10 py-5 font-raleway font-bold me-9'>hire me</a>
-                        <ArrowButton contentText="DOWNLOAD RESUME"/>
+                        <ArrowButton contentText="DOWNLOAD RESUME" huberColor="true" paddingSize={"true"}/>
                     </div>
                     <img src={bannerImage} alt="BannerImage" />
                 </div>
